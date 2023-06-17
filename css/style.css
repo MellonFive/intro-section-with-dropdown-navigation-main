@@ -5,3 +5,53 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body {
+  font-family: 'Epilogue', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  
+  font-size: .8rem;
+
+  color: hsl(0, 0%, 41%);
+
+  
+  padding: 1.5rem 3rem;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+header div .navigation {
+  margin-bottom: .3rem;
+}
+
+header div .navigation a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 1.5rem;
+}
+
+header .account a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 1rem;
+  margin-bottom: .3rem;
+}
+
+header .account .register {
+  border: 1px solid hsl(0, 0%, 8%);
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: inherit;
+  font-family: inherit;
+  margin-bottom: .3rem;
+  cursor: pointer;
+}
