@@ -28,21 +28,25 @@ header div {
   gap: 50px;
 }
 
+header div .logo {
+  margin-right: 2rem;
+}
+
 header div .navigation {
-  margin-bottom: .3rem;
+  margin-bottom: .5rem;
 }
 
 header div .navigation a {
   text-decoration: none;
   color: inherit;
-  margin-right: 1.5rem;
+  margin-right: 2rem;
 }
 
 header .account a {
   text-decoration: none;
   color: inherit;
   margin-right: 1rem;
-  margin-bottom: .3rem;
+  margin-bottom: .5rem;
 }
 
 header .account .register {
