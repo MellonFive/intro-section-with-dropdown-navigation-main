@@ -19,7 +19,7 @@ header {
   color: hsl(0, 0%, 41%);
 
   
-  padding: 2rem 3rem;
+  padding: 1rem 3rem;
 }
 
 header div {
@@ -58,4 +58,10 @@ header .account .register {
   font-family: inherit;
   margin-bottom: .3rem;
   cursor: pointer;
+
+  transition: background .5s;
+}
+
+header .account .register:hover {
+  background: hsl(0, 0%, 98%);
 }
