@@ -6,6 +6,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --almost-white: hsl(0, 0%, 98%);
+  --medium-gray: hsl(0, 0%, 41%);
+  --almost-black: hsl(0, 0%, 8%);
+}
+
 body {
   font-family: 'Epilogue', sans-serif;
 }
@@ -16,7 +22,7 @@ header {
   
   font-size: .8rem;
 
-  color: hsl(0, 0%, 41%);
+  color: var(--medium-gray);
 
   
   padding: 1rem 3rem;
@@ -50,7 +56,7 @@ header .account a {
 }
 
 header .account .register {
-  border: 1px solid hsl(0, 0%, 8%);
+  border: 1px solid var(--almost-black);
   border-radius: 10px;
   padding: 10px 20px;
   background-color: transparent;
@@ -63,5 +69,5 @@ header .account .register {
 }
 
 header .account .register:hover {
-  background: hsl(0, 0%, 98%);
+  background: var(--almost-white);
 }
