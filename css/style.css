@@ -67,11 +67,13 @@ header .account .register {
   margin-bottom: .3rem;
   cursor: pointer;
 
-  transition: background .5s;
+  transition: background 1s;
 }
 
 header .account .register:hover {
-  background: var(--almost-white);
+  background: var(--almost-black);
+  color: var(--almost-white);
+  transform: scale(1.1);
 }
 
 main {
@@ -87,7 +89,7 @@ main {
 main .info {
   width: 50%;
 
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 main .info .title {
@@ -99,6 +101,7 @@ main .info .title {
 main .info .paragraph {
   width: 70%;
   color: var(--medium-gray);
+  line-height: 25px;
 }
 
 main .info .learn-more {
@@ -117,7 +120,11 @@ main .info .learn-more:hover {
 }
 
 footer {
-  margin-top: 70px;
+  margin-top: 6rem;
+  
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 main .inside-image .image {
