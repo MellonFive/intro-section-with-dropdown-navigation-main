@@ -67,13 +67,12 @@ header .account .register {
   margin-bottom: .3rem;
   cursor: pointer;
 
-  transition: background 1s;
+  transition: .5s;
 }
 
 header .account .register:hover {
   background: var(--almost-black);
   color: var(--almost-white);
-  transform: scale(1.1);
 }
 
 main {
@@ -116,7 +115,8 @@ main .info .learn-more {
 }
 
 main .info .learn-more:hover {
-  transform: scale(1.2);
+  background-color: var(--almost-white);
+  color: var(--almost-black);
 }
 
 footer {
