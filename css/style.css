@@ -116,7 +116,6 @@ main .info .learn-more {
 
 main .info .learn-more:hover {
   background-color: var(--almost-white);
-  background-color: var(--almost-white);
   color: var(--almost-black);
 }
 
